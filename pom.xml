@@ -35,7 +35,7 @@
         <tock>20.3.1</tock>
 
         <plugin.surefire>3.0.0-M4</plugin.surefire>
-        <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
+        <kotlin.compiler.jvmTarget>13</kotlin.compiler.jvmTarget>
     </properties>
 
     <dependencies>
@@ -69,17 +69,6 @@
             <version>3.15.0</version>
         </dependency>
     </dependencies>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>net.bytebuddy</groupId>
-                <artifactId>byte-buddy</artifactId>
-                <version>1.10.10</version>
-                <scope>test</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <build>
         <sourceDirectory>${sourceDirectory}</sourceDirectory>
