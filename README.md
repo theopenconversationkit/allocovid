@@ -1,6 +1,6 @@
 # AlloCovid (fr)
 
-- Source code de l'implémentation de la partie conversationnelle de [AlloCovid](https://www.allocovid.com/)
+- Code source de l'implémentation de la partie conversationnelle de [AlloCovid](https://www.allocovid.com/)
 
 - Specification suivie: https://github.com/Delegation-numerique-en-sante/covid19-algorithme-orientation
 
